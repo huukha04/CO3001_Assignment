@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: backend
+
+  data:
+    mongodb:
+      uri: mongodb+srv://co3001user:Zwbul1z7hQaWi1Zg@co3001.fpzegl5.mongodb.net/co3001db?retryWrites=true&w=majority
+
