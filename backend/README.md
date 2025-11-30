@@ -216,7 +216,7 @@ DELETE /api/schedule/available-slots/{slotId}
 ./gradlew clean
 
 # Run tests with verbose output
-./gradlew test --info
+./gradlew test jacocoSummary --rerun-tasks
 
 # Check test report
 build/reports/tests/test/index.html
